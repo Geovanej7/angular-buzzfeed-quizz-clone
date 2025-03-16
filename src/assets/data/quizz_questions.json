@@ -1,55 +1,49 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
-  "questions":[
+  "title": "Descubra qual tipo de dev você é!",
+  "questions": [
     {
-      "id":1,
-      "question": "Qual super poder você escolheria ?",
-      "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+      "id": 1,
+      "question": "O que te faz brilhar os olhos no código?",
+      "options": [
+        {"id": 1, "name": "Botões que fazem animações incríveis", "alias": "A"},
+        {"id": 2, "name": "Uma query que roda em 0.0001s", "alias": "B"}
       ]
     },
     {
-      "id":2,
-      "question": "Quem você salvaria primeiro ?",
-      "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+      "id": 2,
+      "question": "Qual tecnologia te faz suspirar?",
+      "options": [
+        {"id": 1, "name": "CSS, porque posicionar divs é um desafio de lógica avançado", "alias": "A"},
+        {"id": 2, "name": "SQL, porque nada me dá mais orgulho do que um join bem feito", "alias": "B"}
       ]
     },
     {
-      "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-      "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+      "id": 3,
+      "question": "O que te dá pesadelos?",
+      "options": [
+        {"id": 1, "name": "O site que estava lindo no Chrome está quebrado no Safari", "alias": "A"},
+        {"id": 2, "name": "Alguém rodou um DELETE sem WHERE no banco", "alias": "B"}
       ]
     },
     {
-      "id":4,
-      "question": "Qual o seu maior foco ?",
-      "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+      "id": 4,
+      "question": "O que te dá uma sensação de missão cumprida?",
+      "options": [
+        {"id": 1, "name": "Aquele efeito hover insano que impressiona até o designer", "alias": "A"},
+        {"id": 2, "name": "Uma API RESTful tão organizada que dá vontade de imprimir e emoldurar", "alias": "B"}
       ]
     },
     {
-      "id":5,
-      "question": "Qual o seu apelido de super ser ?",
-      "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+      "id": 5,
+      "question": "Qual seria o seu lema como dev?",
+      "options": [
+        {"id": 1, "name": "Se tá bonito, tá funcionando", "alias": "A"},
+        {"id": 2, "name": "Se não tem documentação, nem existe", "alias": "B"}
       ]
     }
   ],
-  "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+  "results": {
+    "A": "Parabéns! Você é um Desenvolvedor Frontend e provavelmente tem pesadelos com flexbox!",
+    "B": "Parabéns! Você é um Desenvolvedor Backend e acha que JSON deveria ser considerado poesia!"
   }
 }
